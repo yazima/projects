@@ -237,19 +237,19 @@
   };
 
   ext.setBlock = function(x, y, z, blockType, blockData) {
-    setBlock(x, y, z, blockType, blockData);
+    setBlock(x * 1, y * 1, z * 1, blockType * 1, blockData * 1);
   };
 
   ext.setLine = function(x1, z1, x2, z2, y, blockType, blockData) {
-    setLine(x1, z1, x2, z2, y, blockType, blockData);
+    setLine(x1 * 1, z1 * 1, x2 * 1, z2 * 1, y * 1, blockType * 1, blockData * 1);
   };
 
   ext.setBlocks = function(x1, y1, z1, x2, y2, z2, blockType, blockData) {
-    setBlocks(x1, y1, z1, x2, y2, z2, blockType, blockData);
+    setBlocks(x1 * 1, y1 * 1, z1 * 1, x2 * 1, y2 * 1, z2 * 1, blockType * 1, blockData * 1);
   };
 
   ext.setCircle = function(x, z, r, y, blockType, blockData) {
-    setCircle(x, z, r, y, blockType, blockData);
+    setCircle(x * 1, z * 1, r * 1, y * 1, blockType * 1, blockData * 1);
   };
 
   ext.postToChat = function(str) {
